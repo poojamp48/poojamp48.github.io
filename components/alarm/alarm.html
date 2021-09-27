@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alarm Clock</title>
+    <link href="alarm.css" rel="stylesheet">
+    <script src="alarm.js"></script>
+  </head>
+  <body>
+    <div id="ctime">
+      <h1 class="header">The Current Time</h1>
+      <div class="square">
+        <div class="digits" id="chr">00</div>
+        <div class="text">Hr</div>
+      </div>
+      <div class="square">
+        <div class="digits" id="cmin">00</div>
+        <div class="text">Min</div>
+      </div>
+      <div class="square">
+        <div class="digits" id="csec">00</div>
+        <div class="text">Sec</div>
+      </div>
+    </div>
+    <div id="tpick">
+      <h1 class="header">Set Alarm</h1>
+      <div id="tpick-h"></div>
+      <div id="tpick-m"></div>
+      <div id="tpick-s"></div>
+      <div>
+        <input type="button" value="Set" id="tset"/>
+        <input type="button" value="Reset" id="treset" disabled/>
+      </div>
+    </div>
+    <audio id="alarm-sound" loop>
+      <source src="wake-up-sound.mp3" type="audio/mp3">
+    </audio>
+  </body>
+</html>
+  
+<!--<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="./styles.css"/>
+        <title>Alarm clock</title>
+	</head>
+<body>
+	<div class="">
+		<div class="head">
+			<u><h1 class="text-primary">Alarm Clock</h1></u>
+		</div>
+		<br>
+		<br>
+		<div>
+			<input type="datetime-local" id="alarmTime"/>
+			<button type="button" onclick="setAlarm(this);" id="alarmButton" class="btn btn-success"><span class="glyphicon glyphicon-time"></span> Set Alarm</button>
+		</div>
+		<br />
+		<div id="selectButton" style="display:none;">
+			<div>
+				<button onclick="stopAlarm();" class="btn btn-danger"><span class="glyphicon glyphicon-stop"></span> Stop Alarm</button>
+			</div>
+		</div>
+	</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>-->

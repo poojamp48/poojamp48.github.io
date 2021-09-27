@@ -1,0 +1,35 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    color: whitesmoke;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-color:#82123f;
+  }
+  .header {
+    box-shadow: 1px 1px 10px 2px whitesmoke;
+    border :20px solid whitesmoke;
+    padding: 50px;
+    text-align: center;
+    background:#82123f;
+    color: white;
+    font-size: 30px;
+  }
+  .container {
+     
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }   
+  .nav li {
+      display: inline-block;
+      font-size: 20px;
+      padding: 20px;
+    }
+  
+  .link{
+  color: rgb(238, 230, 230);
+  }
+  

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('stopwatchwiki.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .wrapper {
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 5px 5px black;
+    border :10px solid black;
+  }
+  div#stopwatch {
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 0 50px 0;
+    
+  }
+  ul#buttons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul#buttons button {
+    background: black;
+    box-shadow: 1px 1px 10px 2px black;
+    border :5px solid black;
+    width: 100px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 10px 0 10px 5px;
+    cursor: pointer;
+  }
